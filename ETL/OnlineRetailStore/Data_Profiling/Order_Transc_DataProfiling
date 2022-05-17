@@ -1,0 +1,865 @@
+<?xml version="1.0"?>
+<DataProfile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/sqlserver/2008/DataDebugger/">
+  <ProfileVersion>1.0</ProfileVersion>
+  <DataSources>
+    <DtsDataSource ID="{AFF8F4B6-6D9D-4A22-B8EC-EBC6E22B715A}" Name="Country_DataProfiling">
+      <DtsConnectionManagerID>Country_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{875F367D-FC0D-4D8B-94C6-FF2A2FB8F685}" Name="Customer_DataProfiling">
+      <DtsConnectionManagerID>Customer_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{FE52E47F-725B-423D-91DB-C3F9C6AB7945}" Name="Customer_Location">
+      <DtsConnectionManagerID>Customer_Location</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{A7D8BFFC-7B1D-4379-9E1F-00EF877A77F5}" Name="Customer_Location_DataProfiling">
+      <DtsConnectionManagerID>Customer_Location_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}" Name="LAPTOP-G8NET1LU.OnlineRetailStore_STAGING 1">
+      <DtsConnectionManagerID>LAPTOP-G8NET1LU.OnlineRetailStore_STAGING 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{3EC7A1BF-43AC-4247-BC2D-F144E3965664}" Name="Order_DataProfiling">
+      <DtsConnectionManagerID>Order_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{196CEBA8-28E3-4FEE-9E96-67F5890EB28F}" Name="Order_DataProfiling 1">
+      <DtsConnectionManagerID>Order_DataProfiling 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{40BBE6B0-1F7F-4431-B871-2662EB3436FB}" Name="Order_DataProfiling 2">
+      <DtsConnectionManagerID>Order_DataProfiling 2</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{B3F05AB9-0751-4BBD-9FB7-3966948160A6}" Name="Order_DataProfiling 3">
+      <DtsConnectionManagerID>Order_DataProfiling 3</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{4D982E66-2DC1-4219-BEDD-BB67C58BA777}" Name="Order_DataProfiling 4">
+      <DtsConnectionManagerID>Order_DataProfiling 4</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{63C41F7F-9743-4236-BA0A-4BD96E9A452F}" Name="Order_Transc_DataProfiling">
+      <DtsConnectionManagerID>Order_Transc_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{FD7B433F-96BF-4755-8B1D-DF91912BB56F}" Name="Product_Category_DataProfiling">
+      <DtsConnectionManagerID>Product_Category_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{D81B7AF7-D690-4386-A52B-33566DE0861E}" Name="Product_Category_DataProfiling 1">
+      <DtsConnectionManagerID>Product_Category_DataProfiling 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{A66E30D4-89DF-4361-87B9-34EE50520B79}" Name="Products_DataProfiling">
+      <DtsConnectionManagerID>Products_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{7E2C4BC2-B02C-4EFE-A68A-9B6BFD6DE1EC}" Name="Region_DataProfiling">
+      <DtsConnectionManagerID>Region_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{5E9EF286-478A-44E2-B037-7B2415DE34B7}" Name="Shipping_DataProfiling">
+      <DtsConnectionManagerID>Shipping_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{554A367F-B55F-4671-8860-CBC713E18200}" Name="Shipping_DataProfiling 1">
+      <DtsConnectionManagerID>Shipping_DataProfiling 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{118DA3D2-8523-4902-A338-00F485F293F9}" Name="Store_DataProfiling">
+      <DtsConnectionManagerID>Store_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{7504E646-B2E3-491D-9655-E2F0AFCFD657}" Name="Store_DataProfiling 1">
+      <DtsConnectionManagerID>Store_DataProfiling 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{1B319CC0-CB6F-44BD-8C72-A59F5B91D8EB}" Name="LAPTOP-G8NET1LU.OnlineRetailStore_DW">
+      <DtsConnectionManagerID>LAPTOP-G8NET1LU.OnlineRetailStore_DW</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{2254C64D-04DF-42FA-873A-F572E74F70C9}" Name="LAPTOP-G8NET1LU.OnlineRetailStore_STAGING">
+      <DtsConnectionManagerID>LAPTOP-G8NET1LU.OnlineRetailStore_STAGING</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{186E83FB-4172-437F-A711-A5C3BAC98F13}" Name="LAPTOP-G8NET1LU.OnlineRetailStoreSourceDB">
+      <DtsConnectionManagerID>LAPTOP-G8NET1LU.OnlineRetailStoreSourceDB</DtsConnectionManagerID>
+    </DtsDataSource>
+  </DataSources>
+  <DataProfileInput>
+    <ProfileMode>Exact</ProfileMode>
+    <Timeout>0</Timeout>
+    <Requests>
+      <ColumnNullRatioProfileRequest ID="NullRatioReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table Schema="dbo" Table="StgOrderTransactions" />
+        <Column IsWildCard="true" />
+      </ColumnNullRatioProfileRequest>
+      <ColumnStatisticsProfileRequest ID="StatisticsReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table Schema="dbo" Table="StgOrderTransactions" />
+        <Column IsWildCard="true" />
+      </ColumnStatisticsProfileRequest>
+      <ColumnLengthDistributionProfileRequest ID="LengthDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table Schema="dbo" Table="StgOrderTransactions" />
+        <Column IsWildCard="true" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+      </ColumnLengthDistributionProfileRequest>
+      <ColumnValueDistributionProfileRequest ID="ValueDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table Schema="dbo" Table="StgOrderTransactions" />
+        <Column IsWildCard="true" />
+        <Option>FrequentValues</Option>
+        <FrequentValueThreshold>0.001</FrequentValueThreshold>
+      </ColumnValueDistributionProfileRequest>
+      <CandidateKeyProfileRequest ID="KeyReq6">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table Schema="dbo" Table="StgOrderTransactions" />
+        <KeyColumns>
+          <Column IsWildCard="true" />
+        </KeyColumns>
+        <ThresholdSetting>Specified</ThresholdSetting>
+        <KeyStrengthThreshold>0.95</KeyStrengthThreshold>
+        <VerifyOutputInFastMode>false</VerifyOutputInFastMode>
+        <MaxNumberOfViolations>100</MaxNumberOfViolations>
+      </CandidateKeyProfileRequest>
+    </Requests>
+  </DataProfileInput>
+  <DataProfileOutput>
+    <Profiles>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="CustomerID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="productID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="DepartmentID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderStatus" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderDate " SqlDbType="DateTime" MaxLength="0" Precision="255" Scale="255" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="Type" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemDiscount" SqlDbType="Money" MaxLength="0" Precision="19" Scale="4" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>65752</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemDiscountRate" SqlDbType="Money" MaxLength="0" Precision="19" Scale="4" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>65752</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="ShippingID" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemProductPrice" SqlDbType="Money" MaxLength="0" Precision="19" Scale="4" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemProfitRatio" SqlDbType="Money" MaxLength="0" Precision="19" Scale="4" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemQuantity" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="Sales" SqlDbType="Money" MaxLength="0" Precision="19" Scale="4" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>65752</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemTotal" SqlDbType="Money" MaxLength="0" Precision="19" Scale="4" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderProfitPerOrder" SqlDbType="Money" MaxLength="0" Precision="19" Scale="4" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>65752</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="CustomerID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>111150</MinValue>
+        <MaxValue>999800</MaxValue>
+        <Mean>555620.888368415</Mean>
+        <StdDev>256185.663859242</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>1</MinValue>
+        <MaxValue>77204</MaxValue>
+        <Mean>39311.9042158413</Mean>
+        <StdDev>22607.1625305613</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="productID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>19</MinValue>
+        <MaxValue>1363</MaxValue>
+        <Mean>725.621228251612</Mean>
+        <StdDev>379.074055455596</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="DepartmentID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>2</MinValue>
+        <MaxValue>12</MaxValue>
+        <Mean>5.47572697408444</Mean>
+        <StdDev>1.88808604283228</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderDate " SqlDbType="DateTime" MaxLength="0" Precision="255" Scale="255" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>2015-01-01T00:00:00.0000000</MinValue>
+        <MaxValue>2018-01-31T23:38:00.0000000</MaxValue>
+      </ColumnStatisticsProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemProductPrice" SqlDbType="Money" MaxLength="0" Precision="19" Scale="4" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>9.9900</MinValue>
+        <MaxValue>1999.9900</MaxValue>
+        <Mean>152.934163219506</Mean>
+        <StdDev>162.458657795196</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemProfitRatio" SqlDbType="Money" MaxLength="0" Precision="19" Scale="4" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>-2.7500</MinValue>
+        <MaxValue>0.5000</MaxValue>
+        <Mean>0.12018889159266</Mean>
+        <StdDev>0.469124836811255</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemQuantity" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>1</MinValue>
+        <MaxValue>5</MaxValue>
+        <Mean>1.75409113030782</Mean>
+        <StdDev>1.30062001161668</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemTotal" SqlDbType="Money" MaxLength="0" Precision="19" Scale="4" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>7.4900</MinValue>
+        <MaxValue>1939.9900</MaxValue>
+        <Mean>174.761696678499</Mean>
+        <StdDev>143.437472396735</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnLengthDistributionProfile ProfileRequestID="LengthDistReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderStatus" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+        <MinLength>6</MinLength>
+        <MaxLength>15</MaxLength>
+        <LengthDistribution>
+          <LengthDistributionItem>
+            <Length>15</Length>
+            <Count>15870</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>6</Length>
+            <Count>7249</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>7</Length>
+            <Count>10945</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>10</Length>
+            <Count>7901</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>14</Length>
+            <Count>704</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>8</Length>
+            <Count>23083</Count>
+          </LengthDistributionItem>
+        </LengthDistribution>
+      </ColumnLengthDistributionProfile>
+      <ColumnLengthDistributionProfile ProfileRequestID="LengthDistReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="Type" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+        <MinLength>4</MinLength>
+        <MaxLength>8</MaxLength>
+        <LengthDistribution>
+          <LengthDistributionItem>
+            <Length>7</Length>
+            <Count>15086</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>4</Length>
+            <Count>7249</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>5</Length>
+            <Count>25340</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>8</Length>
+            <Count>18077</Count>
+          </LengthDistributionItem>
+        </LengthDistribution>
+      </ColumnLengthDistributionProfile>
+      <ColumnLengthDistributionProfile ProfileRequestID="LengthDistReq5" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="ShippingID" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+        <MinLength>3</MinLength>
+        <MaxLength>7</MaxLength>
+        <LengthDistribution>
+          <LengthDistributionItem>
+            <Length>3</Length>
+            <Count>9</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>6</Length>
+            <Count>9000</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>7</Length>
+            <Count>55753</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>4</Length>
+            <Count>90</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>5</Length>
+            <Count>900</Count>
+          </LengthDistributionItem>
+        </LengthDistribution>
+      </ColumnLengthDistributionProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="CustomerID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>4983</NumberOfDistinctValues>
+      </ColumnValueDistributionProfile>
+      <CandidateKeyProfile IsExact="true" ProfileRequestID="KeyReq6">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <KeyColumns>
+          <Column Name="OrderID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </KeyColumns>
+        <IsExactKey>true</IsExactKey>
+      </CandidateKeyProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>65752</NumberOfDistinctValues>
+      </ColumnValueDistributionProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="productID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>118</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>564</Value>
+            <Count>72</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1357</Value>
+            <Count>208</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>278</Value>
+            <Count>92</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1363</Value>
+            <Count>650</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>793</Value>
+            <Count>244</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>822</Value>
+            <Count>66</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>885</Value>
+            <Count>81</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>235</Value>
+            <Count>105</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1014</Value>
+            <Count>4633</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>172</Value>
+            <Count>103</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1346</Value>
+            <Count>405</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1360</Value>
+            <Count>357</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>567</Value>
+            <Count>71</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1354</Value>
+            <Count>483</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>627</Value>
+            <Count>2659</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>135</Value>
+            <Count>298</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>917</Value>
+            <Count>79</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>276</Value>
+            <Count>100</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1349</Value>
+            <Count>592</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1355</Value>
+            <Count>484</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>273</Value>
+            <Count>93</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>771</Value>
+            <Count>207</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1361</Value>
+            <Count>529</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>797</Value>
+            <Count>127</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>728</Value>
+            <Count>169</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>977</Value>
+            <Count>72</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>44</Value>
+            <Count>105</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>642</Value>
+            <Count>101</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1352</Value>
+            <Count>431</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>926</Value>
+            <Count>70</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>93</Value>
+            <Count>98</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>502</Value>
+            <Count>5302</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>828</Value>
+            <Count>78</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>897</Value>
+            <Count>85</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1358</Value>
+            <Count>434</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>957</Value>
+            <Count>4303</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>565</Value>
+            <Count>91</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>282</Value>
+            <Count>99</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1004</Value>
+            <Count>3714</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>906</Value>
+            <Count>80</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1347</Value>
+            <Count>207</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>365</Value>
+            <Count>7328</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1353</Value>
+            <Count>484</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>703</Value>
+            <Count>190</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>775</Value>
+            <Count>201</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>191</Value>
+            <Count>4101</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>116</Value>
+            <Count>127</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1350</Value>
+            <Count>652</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1356</Value>
+            <Count>362</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>792</Value>
+            <Count>203</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>835</Value>
+            <Count>68</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>886</Value>
+            <Count>69</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>403</Value>
+            <Count>11954</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>572</Value>
+            <Count>84</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>804</Value>
+            <Count>69</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1359</Value>
+            <Count>492</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>810</Value>
+            <Count>69</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1351</Value>
+            <Count>442</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>818</Value>
+            <Count>68</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>134</Value>
+            <Count>264</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>893</Value>
+            <Count>68</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1073</Value>
+            <Count>7189</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>924</Value>
+            <Count>82</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1348</Value>
+            <Count>271</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>249</Value>
+            <Count>106</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>821</Value>
+            <Count>66</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1362</Value>
+            <Count>838</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>37</Value>
+            <Count>87</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>778</Value>
+            <Count>206</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="DepartmentID" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>11</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>9</Value>
+            <Count>2026</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>3</Value>
+            <Count>4946</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>12</Value>
+            <Count>362</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>6</Value>
+            <Count>4134</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>7</Value>
+            <Count>20495</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>10</Value>
+            <Count>1465</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>4</Value>
+            <Count>21501</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>5</Value>
+            <Count>8399</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>2</Value>
+            <Count>1527</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>11</Value>
+            <Count>492</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>8</Value>
+            <Count>405</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderStatus" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>9</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>COMPLETE</Value>
+            <Count>21716</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>PENDING</Value>
+            <Count>7321</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>CLOSED</Value>
+            <Count>7249</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>PAYMENT_REVIEW</Value>
+            <Count>704</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>SUSPECTED_FRAUD</Value>
+            <Count>1488</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>ON_HOLD</Value>
+            <Count>3624</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>PROCESSING</Value>
+            <Count>7901</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>CANCELED</Value>
+            <Count>1367</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>PENDING_PAYMENT</Value>
+            <Count>14382</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <CandidateKeyProfile IsExact="true" ProfileRequestID="KeyReq6">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <KeyColumns>
+          <Column Name="OrderDate " SqlDbType="DateTime" MaxLength="0" Precision="255" Scale="255" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </KeyColumns>
+        <IsExactKey>true</IsExactKey>
+      </CandidateKeyProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderDate " SqlDbType="DateTime" MaxLength="0" Precision="255" Scale="255" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>65752</NumberOfDistinctValues>
+      </ColumnValueDistributionProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="Type" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>4</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>PAYMENT</Value>
+            <Count>15086</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>TRANSFER</Value>
+            <Count>18077</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>CASH</Value>
+            <Count>7249</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>DEBIT</Value>
+            <Count>25340</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <CandidateKeyProfile IsExact="true" ProfileRequestID="KeyReq6">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <KeyColumns>
+          <Column Name="ShippingID" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </KeyColumns>
+        <IsExactKey>true</IsExactKey>
+      </CandidateKeyProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="ShippingID" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>65752</NumberOfDistinctValues>
+      </ColumnValueDistributionProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq5">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgOrderTransactions" RowCount="65752" />
+        <Column Name="OrderItemQuantity" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>5</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>3</Value>
+            <Count>4739</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>1</Value>
+            <Count>45657</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>4</Value>
+            <Count>4720</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>5</Value>
+            <Count>5103</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>2</Value>
+            <Count>5533</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+    </Profiles>
+  </DataProfileOutput>
+</DataProfile>

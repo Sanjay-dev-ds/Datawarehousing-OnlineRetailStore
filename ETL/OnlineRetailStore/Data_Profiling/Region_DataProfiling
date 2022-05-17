@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<DataProfile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/sqlserver/2008/DataDebugger/">
+  <ProfileVersion>1.0</ProfileVersion>
+  <DataSources>
+    <DtsDataSource ID="{AFF8F4B6-6D9D-4A22-B8EC-EBC6E22B715A}" Name="Country_DataProfiling">
+      <DtsConnectionManagerID>Country_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{875F367D-FC0D-4D8B-94C6-FF2A2FB8F685}" Name="Customer_DataProfiling">
+      <DtsConnectionManagerID>Customer_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{FE52E47F-725B-423D-91DB-C3F9C6AB7945}" Name="Customer_Location">
+      <DtsConnectionManagerID>Customer_Location</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{A7D8BFFC-7B1D-4379-9E1F-00EF877A77F5}" Name="Customer_Location_DataProfiling">
+      <DtsConnectionManagerID>Customer_Location_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}" Name="LAPTOP-G8NET1LU.OnlineRetailStore_STAGING 1">
+      <DtsConnectionManagerID>LAPTOP-G8NET1LU.OnlineRetailStore_STAGING 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{3EC7A1BF-43AC-4247-BC2D-F144E3965664}" Name="Order_DataProfiling">
+      <DtsConnectionManagerID>Order_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{196CEBA8-28E3-4FEE-9E96-67F5890EB28F}" Name="Order_DataProfiling 1">
+      <DtsConnectionManagerID>Order_DataProfiling 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{40BBE6B0-1F7F-4431-B871-2662EB3436FB}" Name="Order_DataProfiling 2">
+      <DtsConnectionManagerID>Order_DataProfiling 2</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{B3F05AB9-0751-4BBD-9FB7-3966948160A6}" Name="Order_DataProfiling 3">
+      <DtsConnectionManagerID>Order_DataProfiling 3</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{4D982E66-2DC1-4219-BEDD-BB67C58BA777}" Name="Order_DataProfiling 4">
+      <DtsConnectionManagerID>Order_DataProfiling 4</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{63C41F7F-9743-4236-BA0A-4BD96E9A452F}" Name="Order_Transc_DataProfiling">
+      <DtsConnectionManagerID>Order_Transc_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{FD7B433F-96BF-4755-8B1D-DF91912BB56F}" Name="Product_Category_DataProfiling">
+      <DtsConnectionManagerID>Product_Category_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{D81B7AF7-D690-4386-A52B-33566DE0861E}" Name="Product_Category_DataProfiling 1">
+      <DtsConnectionManagerID>Product_Category_DataProfiling 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{A66E30D4-89DF-4361-87B9-34EE50520B79}" Name="Products_DataProfiling">
+      <DtsConnectionManagerID>Products_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{7E2C4BC2-B02C-4EFE-A68A-9B6BFD6DE1EC}" Name="Region_DataProfiling">
+      <DtsConnectionManagerID>Region_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{5E9EF286-478A-44E2-B037-7B2415DE34B7}" Name="Shipping_DataProfiling">
+      <DtsConnectionManagerID>Shipping_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{554A367F-B55F-4671-8860-CBC713E18200}" Name="Shipping_DataProfiling 1">
+      <DtsConnectionManagerID>Shipping_DataProfiling 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{118DA3D2-8523-4902-A338-00F485F293F9}" Name="Store_DataProfiling">
+      <DtsConnectionManagerID>Store_DataProfiling</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{7504E646-B2E3-491D-9655-E2F0AFCFD657}" Name="Store_DataProfiling 1">
+      <DtsConnectionManagerID>Store_DataProfiling 1</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{1B319CC0-CB6F-44BD-8C72-A59F5B91D8EB}" Name="LAPTOP-G8NET1LU.OnlineRetailStore_DW">
+      <DtsConnectionManagerID>LAPTOP-G8NET1LU.OnlineRetailStore_DW</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{2254C64D-04DF-42FA-873A-F572E74F70C9}" Name="LAPTOP-G8NET1LU.OnlineRetailStore_STAGING">
+      <DtsConnectionManagerID>LAPTOP-G8NET1LU.OnlineRetailStore_STAGING</DtsConnectionManagerID>
+    </DtsDataSource>
+    <DtsDataSource ID="{186E83FB-4172-437F-A711-A5C3BAC98F13}" Name="LAPTOP-G8NET1LU.OnlineRetailStoreSourceDB">
+      <DtsConnectionManagerID>LAPTOP-G8NET1LU.OnlineRetailStoreSourceDB</DtsConnectionManagerID>
+    </DtsDataSource>
+  </DataSources>
+  <DataProfileInput>
+    <ProfileMode>Exact</ProfileMode>
+    <Timeout>0</Timeout>
+    <Requests>
+      <ColumnNullRatioProfileRequest ID="NullRatioReq2">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table Schema="dbo" Table="StgRegion" />
+        <Column IsWildCard="true" />
+      </ColumnNullRatioProfileRequest>
+      <ColumnStatisticsProfileRequest ID="StatisticsReq2">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table Schema="dbo" Table="StgRegion" />
+        <Column IsWildCard="true" />
+      </ColumnStatisticsProfileRequest>
+      <ColumnLengthDistributionProfileRequest ID="LengthDistReq2">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table Schema="dbo" Table="StgRegion" />
+        <Column IsWildCard="true" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+      </ColumnLengthDistributionProfileRequest>
+      <ColumnValueDistributionProfileRequest ID="ValueDistReq2">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table Schema="dbo" Table="StgRegion" />
+        <Column IsWildCard="true" />
+        <Option>FrequentValues</Option>
+        <FrequentValueThreshold>0.001</FrequentValueThreshold>
+      </ColumnValueDistributionProfileRequest>
+      <CandidateKeyProfileRequest ID="KeyReq2">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table Schema="dbo" Table="StgRegion" />
+        <KeyColumns>
+          <Column IsWildCard="true" />
+        </KeyColumns>
+        <ThresholdSetting>Specified</ThresholdSetting>
+        <KeyStrengthThreshold>0.95</KeyStrengthThreshold>
+        <VerifyOutputInFastMode>false</VerifyOutputInFastMode>
+        <MaxNumberOfViolations>100</MaxNumberOfViolations>
+      </CandidateKeyProfileRequest>
+    </Requests>
+  </DataProfileInput>
+  <DataProfileOutput>
+    <Profiles>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq2" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgRegion" RowCount="4" />
+        <Column Name="RegionCode" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnNullRatioProfile ProfileRequestID="NullRatioReq2" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgRegion" RowCount="4" />
+        <Column Name="Region" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NullCount>0</NullCount>
+      </ColumnNullRatioProfile>
+      <ColumnStatisticsProfile IsExact="true" ProfileRequestID="StatisticsReq2">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgRegion" RowCount="4" />
+        <Column Name="RegionCode" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <MinValue>1</MinValue>
+        <MaxValue>4</MaxValue>
+        <Mean>2.5</Mean>
+        <StdDev>1.11803398874989</StdDev>
+      </ColumnStatisticsProfile>
+      <ColumnLengthDistributionProfile ProfileRequestID="LengthDistReq2" IsExact="true">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgRegion" RowCount="4" />
+        <Column Name="Region" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <IgnoreLeadingSpace>false</IgnoreLeadingSpace>
+        <IgnoreTrailingSpace>true</IgnoreTrailingSpace>
+        <MinLength>4</MinLength>
+        <MaxLength>9</MaxLength>
+        <LengthDistribution>
+          <LengthDistributionItem>
+            <Length>4</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>5</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>7</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+          <LengthDistributionItem>
+            <Length>9</Length>
+            <Count>1</Count>
+          </LengthDistributionItem>
+        </LengthDistribution>
+      </ColumnLengthDistributionProfile>
+      <CandidateKeyProfile IsExact="true" ProfileRequestID="KeyReq2">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgRegion" RowCount="4" />
+        <KeyColumns>
+          <Column Name="RegionCode" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </KeyColumns>
+        <IsExactKey>true</IsExactKey>
+      </CandidateKeyProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq2">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgRegion" RowCount="4" />
+        <Column Name="RegionCode" SqlDbType="Int" MaxLength="0" Precision="10" Scale="0" LCID="-1" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>4</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>1</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>2</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>3</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>4</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+      <CandidateKeyProfile IsExact="true" ProfileRequestID="KeyReq2">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgRegion" RowCount="4" />
+        <KeyColumns>
+          <Column Name="Region" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        </KeyColumns>
+        <IsExactKey>true</IsExactKey>
+      </CandidateKeyProfile>
+      <ColumnValueDistributionProfile IsExact="true" ProfileRequestID="ValueDistReq2">
+        <DataSourceID>{C4CEB2DD-7EDE-412F-9A74-0FB694C12254}</DataSourceID>
+        <Table DataSource="LAPTOP-G8NET1LU" Database="OnlineRetailStore_STAGING" Schema="dbo" Table="StgRegion" RowCount="4" />
+        <Column Name="Region" SqlDbType="NVarChar" MaxLength="50" Precision="255" Scale="255" LCID="1033" CodePage="0" IsNullable="true" StringCompareOptions="0" />
+        <NumberOfDistinctValues>4</NumberOfDistinctValues>
+        <ValueDistribution>
+          <ValueDistributionItem>
+            <Value>Midwest</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>Northeast</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>South</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+          <ValueDistributionItem>
+            <Value>West</Value>
+            <Count>1</Count>
+          </ValueDistributionItem>
+        </ValueDistribution>
+      </ColumnValueDistributionProfile>
+    </Profiles>
+  </DataProfileOutput>
+</DataProfile>

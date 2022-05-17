@@ -1,0 +1,1382 @@
+CountryCode	County	RegionCode
+107	Abbeville	1
+404	Acadia	2
+315	Accomack	2
+1014	Ada	3
+1145	Adair	3
+389	Adams	2
+102	Addison	3
+911	Aiken	1
+1016	Aitkin	3
+224	Alachua	3
+445	Alamance	3
+156	Alameda	1
+179	Albany	3
+697	Albemarle	1
+1192	Aleutians West (CA)	3
+449	Alexander	4
+662	Alexandria (city)	1
+660	Alfalfa	2
+821	Alger	2
+1237	Allegan	3
+1360	Allegany	3
+254	Allegheny	3
+550	Allen	3
+217	Alpena	4
+997	Alpine	2
+1373	Amador	3
+1264	Amarillo	3
+781	Amelia	2
+1039	Anchorage Municipality	3
+117	Anderson	2
+1146	Androscoggin	3
+157	Anne Arundel	2
+873	Anniston	3
+1374	Annville	4
+458	Anoka	2
+1036	Anson	3
+1276	Antrim	3
+466	Appanoose	2
+678	Appling	2
+590	Arapahoe	3
+650	Archer	1
+1335	Arcola	3
+878	Arenac	3
+1301	Arkansas	1
+527	Arlington	3
+351	Armstrong	2
+61	Aroostook	4
+617	Ashe	1
+140	Ashland	3
+1308	Ashley	3
+505	Ashtabula	4
+1305	Asotin	1
+920	Atascosa	3
+485	Athens	1
+726	Atlantic	2
+1286	Atoka	4
+193	Audrain	2
+1133	Auglaize	2
+360	Augusta	4
+1217	Austin	2
+1031	Autauga	2
+1232	Avenel	3
+1144	Baker	1
+516	Baldwin	2
+605	Ballard	3
+405	Baltimore	3
+487	Baltimore (city)	1
+1149	Banks	2
+1099	Bannock	2
+1051	Baraga	2
+1101	Barber	1
+636	Barnstable	2
+1326	Barnwell	4
+22	Barron	2
+981	Barry	3
+546	Barton	3
+973	Bastrop	2
+1242	Bath	4
+1069	Bay	2
+798	Beadle	2
+850	Bear Lake	1
+321	Beaufort	1
+446	Beauregard	3
+631	Beaver	3
+637	Beaverhead	1
+1053	Beaverlett	4
+1277	Becker	2
+765	Bedford	3
+686	Bee	2
+1042	Belknap	3
+517	Bell	3
+1054	Belmont	3
+1378	Benewah	3
+1086	Bennington	3
+842	Benson	1
+797	Benton	2
+1009	Bergen	3
+1263	Berkeley	2
+441	Berks	2
+148	Berkshire	4
+475	Bernalillo	2
+1238	Berrien	2
+602	Bethel (CA)	1
+109	Bexar	2
+609	Bibb	3
+1132	Big Horn	1
+450	Big Stone	3
+253	Bingham	1
+367	Birmingham	2
+271	Black Hawk	4
+20	Blackford	1
+757	Blair	2
+918	Blanco	2
+939	Bland	4
+507	Bloom City	2
+355	Blount	2
+232	Blue Earth	2
+480	Bolivar	3
+411	Bonita Springs	4
+604	Bonner	2
+233	Bonneville	4
+26	Boone	1
+436	Bosque	1
+1002	Bossier	3
+1085	Botetourt	2
+783	Bottineau	4
+412	Boulder	2
+1173	Bourbon	3
+243	Boyd	2
+863	Boyle	2
+1012	Boynton Beach	2
+1240	Bracken	3
+222	Bradford	4
+1281	Bradley	4
+787	Branch	4
+890	Braxton	2
+520	Brazoria	4
+731	Brazos	2
+700	Breathitt	2
+473	Breckinridge	3
+1155	Bremer	2
+733	Brevard	1
+707	Brewster	3
+251	Brinkley	2
+73	Bristol	2
+1375	Bristow	2
+808	Broad Run	2
+494	Broadwater	3
+1322	Brockton	2
+442	Bronx	2
+398	Brookings	2
+317	Brooks	2
+309	Broome	3
+1380	Broomfield	3
+89	Broward	3
+46	Brown	4
+1078	Bruin	1
+1188	Brule	2
+1038	Brunswick	3
+226	Buchanan	2
+72	Bucks	1
+409	Buena Vista	3
+578	Buffalo	4
+722	Bullock	4
+961	Buncombe	1
+343	Bureau	2
+848	Burke	2
+200	Burleigh	4
+844	Burleson	1
+782	Burlington	3
+983	Burnet	4
+737	Burnett	4
+1381	Burney	3
+800	Burnwell	2
+921	Burt	2
+85	Butler	2
+1032	Butte	3
+709	Cabarrus	4
+580	Cabell	2
+926	Cache	1
+177	Caddo	1
+739	Calaveras	2
+513	Calcasieu	2
+790	Caldwell	3
+795	Caledonia	4
+347	Calhoun	2
+1296	Callahan	4
+291	Calloway	4
+664	Calvert	3
+744	Cambria	4
+426	Camden	2
+775	Cameron	1
+1162	Camp	2
+1325	Cannon	3
+189	Cape Girardeau	2
+1121	Cape May	3
+555	Carbon	2
+1371	Caribou	1
+1165	Carlisle	3
+400	Carlton	4
+1214	Caroline	2
+5	Carroll	3
+1316	Carrsville	3
+748	Carson	2
+1093	Carson City (city)	3
+345	Carter	3
+383	Carteret	2
+10	Carver	3
+98	Casanova	3
+506	Cass	4
+1207	Cassia	3
+1143	Castro	2
+832	Caswell	2
+1341	Catahoula	3
+1175	Catawba	1
+774	Cato	1
+518	Cattaraugus	2
+724	Cayuga	4
+1204	Cecil	2
+557	Cedar	4
+423	Cedar Springs	3
+128	Centre	4
+714	Chaffee	1
+1116	Chambers	1
+4	Champaign	2
+995	Chandler	3
+1024	Chariton	3
+1073	Charles	3
+186	Charles Mix	3
+786	Charleston	2
+633	Charlotte	4
+670	Chatham	2
+716	Chattooga	1
+51	Chautauqua	3
+1282	Chaves	2
+705	Cheboygan	2
+676	Chemung	4
+801	Chenango	3
+354	Cherokee	2
+1332	Cherry	2
+661	Cheshire	3
+94	Chester	2
+813	Chesterfield	2
+990	Cheyenne	2
+958	Chickasaw	1
+1203	Childress	1
+804	Chilton	2
+1241	Chippewa	3
+768	Chisago	3
+576	Chittenden	2
+1349	Choctaw	2
+950	Chouteau	3
+195	Christian	4
+230	Cibola	2
+1199	Cimarron	4
+196	Citrus	3
+1141	Clackamas	3
+223	Claiborne	2
+827	Clarendon	4
+603	Clarion	3
+201	Clark	2
+1028	Clarke	1
+955	Clatsop	2
+47	Clay	2
+898	Clayton	2
+333	Clearfield	4
+95	Clearview	2
+54	Clearwater	2
+1243	Cleburne	2
+1338	Clermont	4
+340	Cleveland	3
+974	Clinch	4
+303	Clinton	3
+579	Cloud	1
+727	Coahoma	2
+600	Coal	2
+645	Cobb	2
+803	Cochise	2
+246	Cochran	3
+653	Coffee	3
+908	Coffey	2
+1331	Cokedale	2
+1268	Colbert	1
+329	Cole	3
+382	Coleman	1
+390	Colfax	1
+1336	Colleton	2
+502	Collier	1
+992	Collin	2
+1272	Colorado Springs	2
+58	Columbia	2
+293	Columbiana	2
+552	Columbus	3
+684	Colusa	2
+1004	Comal	2
+438	Comanche	3
+362	Concho	1
+690	Concordia	3
+826	Conecuh	2
+402	Conejos	3
+113	Contra Costa	3
+1095	Conway	4
+41	Cook	2
+1151	Cooke	3
+824	Cooper	3
+281	Coos	3
+539	Copeland	4
+150	Copiah	2
+1138	Corning	2
+1063	Corson	3
+1318	Coshocton	2
+712	Costilla	2
+1198	Cotesfield	4
+817	Cottle	2
+1208	Cotton	4
+1358	Cottonwood	3
+601	Cowley	2
+508	Cowlitz	3
+1076	Craighead	3
+554	Craven	4
+137	Crawford	4
+2	Crenshaw	2
+638	Crittenden	2
+1105	Crosby	2
+194	Cross	1
+644	Crow Wing	4
+1311	Crowley	4
+1273	Cullman	2
+1285	Culpeper	2
+205	Cumberland	1
+474	Cumming	2
+1166	Currituck	4
+294	Curry	1
+204	Custer	2
+30	Cuyahoga	2
+849	Dacula	3
+882	Dade	2
+648	Dakota	2
+27	Dallas	2
+945	Dames Quarter	2
+82	Dane	1
+1354	Danville (city)	2
+1113	Dare	2
+45	Dauphin	2
+284	Davidson	4
+280	Daviess	4
+587	Davis	2
+282	Dawson	3
+675	De Soto	4
+374	Deaf Smith	2
+619	Dearborn	2
+934	Decatur	2
+124	DeKalb	2
+337	Delaware	3
+306	Delta	4
+812	Denton	2
+132	Denver	3
+1135	Des Moines	2
+725	Deschutes	3
+270	Detour	4
+252	Dewey	3
+1163	Dickey	3
+833	Dickinson	2
+221	Dickson	4
+335	Dillon	3
+323	Dinwiddie	4
+18	District of Columbia	4
+1021	Dixie	2
+1092	Dixon	2
+1035	Doddridge	3
+99	Dodge	4
+191	Doña Ana	3
+110	Doniphan	1
+105	Donley	2
+1202	Dooly	4
+839	Dorchester	1
+1299	Dougherty	1
+528	Douglas	2
+1140	Drew	2
+893	Dubois	2
+978	Dubuque	2
+1058	Duchesne	3
+982	Dukes	2
+1379	Dumfries	3
+643	Dundy	3
+654	Dunn	2
+771	DuPage	1
+1158	Duplin	2
+371	Dutchess	3
+917	Duval	2
+1205	Dyer	2
+960	Eagle	3
+679	East Baton Rouge	1
+432	Eaton	4
+272	Eau Claire	4
+988	Ector	3
+591	Eddy	3
+967	Edgecombe	3
+100	El Dorado	4
+377	El Paso	1
+639	Elk	2
+304	Elkhart	2
+585	Ellis	1
+900	Ellsworth	1
+456	Elmore	3
+1102	Emanuel	4
+924	Emmet	3
+1008	Emmons	3
+92	Erie	2
+531	Escambia	1
+388	Essex	3
+358	Etowah	3
+1370	Evan	3
+29	Fairfax	4
+1119	Fairfax (city)	4
+536	Fairfield	2
+1303	Falls	3
+1184	Fannin	3
+1087	Faribault	1
+1369	Farrandsville	1
+514	Faulkner	1
+858	Fauquier	2
+176	Fayette	2
+1088	Fergus	4
+738	Ferry	2
+778	Fillmore	2
+693	Fisher	4
+469	Flagler	2
+796	Fleming	3
+1181	Florence	1
+199	Floyd	2
+1195	Fluvanna	2
+776	Fond du Lac	3
+706	Ford	2
+599	Forest	3
+443	Forrest	2
+784	Forsyth	2
+239	Fort Bend	1
+308	Foster	2
+3	Franklin	2
+896	Frederick	4
+295	Fremont	3
+23	Fresno	2
+419	Ft Devens	1
+835	Fuget	4
+17	Fulton	1
+980	Furnas	3
+341	Gadsden	3
+902	Gage	3
+745	Gaines	1
+991	Gainesville	3
+1026	Gallatin	3
+846	Gallia	2
+538	Galveston	2
+153	Garfield	1
+268	Garland	2
+1117	Garrard	2
+332	Garza	2
+1170	Gasconade	4
+755	Gates	1
+1295	Geauga	4
+853	Gem	4
+486	Genesee	2
+756	Geneva	2
+328	Gentry	4
+871	Georgetown	2
+815	Gibson	2
+314	Gila	2
+52	Giles	2
+1280	Gillespie	2
+1230	Gilmer	2
+125	Glasscock	2
+135	Glendon	2
+914	Gloucester	2
+481	Glynn	3
+1310	Gonzales	2
+1098	Goochland	4
+683	Goodhue	4
+829	Gooding	3
+1193	Gordon	1
+984	Gove	3
+242	Grady	3
+658	Grafton	2
+1235	Graham	4
+228	Grand Forks	3
+799	Grand Isle	2
+231	Grand Traverse	1
+79	Grant	3
+857	Granville	1
+910	Gratiot	4
+1225	Gray	1
+139	Grays Harbor	3
+493	Grayson	2
+629	Green	2
+385	Greenbrier	3
+227	Greene	4
+533	Greenville	2
+435	Greenwood	3
+274	Grenada	4
+1034	Grimes	1
+959	Groveport	2
+460	Grundy	3
+1129	Guadalupe	4
+1228	Guernsey	2
+1006	Guilford	1
+1003	Gulf	2
+1060	Gulfport	2
+66	Gunnison	1
+380	Guthrie	2
+777	Gwinnett	2
+818	Habersham	2
+912	Hale	2
+447	Halifax	2
+866	Hall	4
+410	Hamilton	4
+158	Hampden	2
+598	Hampshire	3
+248	Hancock	3
+998	Hansford	2
+1178	Hardeman	2
+212	Hardin	3
+1048	Harding	2
+909	Hardy	3
+729	Harford	3
+571	Harlan	2
+770	Harney	2
+163	Harris	3
+364	Harrison	4
+121	Hart	2
+310	Hartford	3
+1377	Hartley	2
+104	Harvey	1
+15	Haskell	4
+840	Hattiesburg	2
+279	Hawaii	4
+219	Hawkins	1
+1059	Hayes	3
+963	Hays	1
+1037	Haywood	3
+943	Helmer	1
+257	Hempstead	2
+594	Henderson	2
+501	Hennepin	2
+979	Henrico	3
+131	Henry	3
+994	Herndon	1
+1077	Hesperia	4
+522	Hettinger	2
+369	Hidalgo	1
+567	Highland	4
+562	Highlands	2
+463	Hill	3
+24	Hillsborough	4
+289	Hillsdale	2
+142	Hinds	1
+1352	Hitchcock	1
+721	Hocking	4
+1136	Hockley	4
+688	Hollybush	4
+1064	Holmes	2
+811	Holt	2
+430	Honolulu	2
+1245	Hopkins	2
+1134	Horry	3
+962	Houghton	2
+935	Houston	3
+70	Howard	3
+1312	Howell	2
+1164	Hubbard	3
+1120	Hudson	1
+928	Hughes	3
+413	Humboldt	4
+476	Humphreys	1
+207	Hunt	4
+1007	Hunterdon	3
+951	Huntingdon	3
+830	Huntington	1
+273	Huron	4
+515	Hutchinson	2
+1323	Hyde	3
+627	Iberia	3
+1179	Iberville	1
+1005	Idaho	2
+769	Independence	4
+394	Indian River	2
+663	Indiana	3
+391	Indianapolis	3
+244	Ingham	3
+885	Inyo	2
+1319	Iowa	4
+767	Iron	3
+1025	Iroquois	3
+970	Irvine	1
+682	Irwin	4
+1304	Isanti	2
+1262	Island	2
+732	Issaquena	2
+387	Itasca	2
+136	Jackson	1
+545	Jamaica	2
+1001	James City	4
+632	Jasper	2
+8	Jefferson	4
+1112	Jersey	3
+936	Jewell	3
+946	Jo Daviess	2
+178	Johnson	3
+146	Johnston	2
+622	Jones	3
+551	Josephine	3
+1236	Juab	2
+1259	Judith Basin	4
+126	Juneau	3
+1071	Juneau City and Boroug	2
+1047	Juniata	4
+913	Kalamazoo	2
+861	Kanabec	1
+500	Kanawha	1
+899	Kandiyohi	4
+1148	Kane	4
+13	Kankakee	1
+1201	Karnes	3
+641	Kauai	3
+277	Kay	4
+386	Keith	2
+938	Kelly Lake	1
+1334	Kemper	2
+843	Kenai Peninsula	2
+324	Kennebec	2
+299	Kenner	3
+75	Kenosha	2
+166	Kent	3
+613	Kenton	3
+1052	Keokuk	3
+708	Kern	1
+626	Kershaw	1
+1306	Kettle	3
+655	Kewaunee	2
+1067	Kimball	2
+48	King	4
+264	King and Queen	4
+1019	King George	2
+325	Kingman	4
+267	Kings	2
+883	Kingsbury	3
+122	Kiowa	3
+378	Kit Carson	4
+240	Kitsap	2
+1211	Kittitas	2
+916	Klamath	4
+864	Klickitat	3
+581	Knox	1
+202	Koochiching	3
+543	La Paz	3
+1096	La Quinta	3
+779	La Salle	2
+1265	Lackawanna	2
+845	Laclede	4
+942	Lafayette	4
+172	LaGrange	4
+455	Lake	1
+1104	Lake and Peninsula	1
+19	Lake Itasca	3
+1251	Lake of the Woods	2
+1082	Lamar	2
+884	Lamb	2
+1320	Lampasas	2
+523	Lancaster	2
+155	Lane	1
+831	Langlade	4
+933	Lapeer	2
+1154	LaPorte	2
+145	Laramie	2
+1185	Larimer	2
+237	Larue	4
+1055	Las Animas	2
+1169	Las Vegas	3
+559	Lassen	3
+116	Lauderdale	3
+1183	Laurel	2
+1068	Laurens	4
+429	Lavaca	4
+214	Lawrence	4
+1348	Lawrenceville	1
+566	Le Flore	4
+133	Lea	4
+701	Leake	2
+1291	Leary	4
+90	Lebanon	4
+379	Lee	3
+1194	Leelanau	3
+1216	Leflore	3
+39	Lehigh	1
+1022	Lempster	3
+1327	Lenawee	2
+723	Leon	3
+741	Leslie	2
+1337	Letcher	1
+922	Levy	3
+359	Lewis	3
+595	Lewis and Clark	2
+597	Lexington	4
+852	Lexington (city)	2
+420	Liberty	3
+986	Lilburn	3
+457	Limestone	3
+106	Lincoln	3
+399	Linn	3
+373	Linwood	4
+937	Lipscomb	2
+220	Litchfield	1
+433	Livingston	1
+203	Logan	2
+210	Long	1
+331	Lonoke	3
+115	Los Angeles	4
+1066	Loudon	4
+453	Loudoun	4
+809	Love	4
+806	Lowndes	3
+891	Lubbock	2
+535	Lucas	2
+526	Luzerne	4
+311	Lycoming	2
+1122	Lynn	2
+151	Lyon	4
+876	Mackinac	1
+35	Macomb	3
+141	Macon	2
+736	Macoupin	2
+593	Madera	4
+36	Madison	3
+118	Mahaska	2
+965	Mahnomen	2
+894	Mahoning	3
+1231	Malheur	1
+88	Manatee	3
+624	Manitowoc	4
+606	Marathon	2
+16	Maricopa	1
+489	Maries	2
+184	Marin	4
+160	Marinette	2
+56	Marion	3
+888	Mariposa	2
+548	Marlboro	3
+286	Marshall	1
+287	Martin	3
+957	Martinsburg	2
+759	Mason	2
+952	Matagorda	1
+492	Mathews	2
+666	Maui	3
+563	Maury	4
+746	Maverick	2
+1043	Mayes	2
+954	McClain	3
+342	McCreary	2
+67	McCurtain	3
+1347	McDonald	3
+753	McDonough	2
+407	McDowell	3
+69	McDuffie	2
+229	McHenry	3
+1239	McIntosh	1
+510	McKean	2
+1029	McKee	4
+1300	McKenzie	3
+698	McKinley	3
+615	McLean	1
+503	McLennan	3
+919	McNairy	4
+993	McPherson	1
+209	Meade	4
+350	Mecklenburg	3
+763	Medina	2
+1126	Meigs	3
+872	Memphis	2
+947	Menard	2
+549	Mendocino	2
+1081	Menifee	4
+1287	Menominee	2
+749	Merced	2
+164	Mercer	2
+1260	Meridian	4
+608	Meriwether	3
+395	Merrick	3
+471	Merrimack	1
+927	Mesa	1
+1227	Metcalfe	3
+887	Miami	3
+143	Miami-Dade	1
+649	Mid Florida	3
+482	Middlesex	4
+1056	Midland	2
+825	Migrate	2
+1124	Milam	2
+886	Miller	3
+173	Milwaukee	3
+86	Mine Run	2
+715	Mineral	3
+671	Mingo	4
+529	Minidoka	3
+672	Minnehaha	2
+772	Missaukee	2
+1159	Mississippi	1
+694	Mitchell	2
+55	Mobile	4
+1261	Modoc	3
+322	Mohave	1
+170	Monango	3
+747	Moniteau	3
+794	Monmouth	3
+692	Mono	3
+823	Monongalia	4
+1	Monroe	2
+312	Montague	1
+1176	Montcoal	1
+302	Monterey	2
+182	Montezuma	2
+12	Montgomery	4
+352	Montrose	2
+470	Moore	3
+521	Morehouse	1
+93	Morgan	2
+1057	Morris	2
+1229	Morrison	1
+1267	Morrow	2
+972	Morton	2
+1253	Mower	2
+519	Muhlenberg	3
+101	Multnomah	1
+652	Murray	3
+1368	Muscatine	3
+742	Muscogee	2
+461	Muskingum	2
+37	Muskogee	2
+1114	Musselshell	1
+1080	Napa	1
+1046	Naples	4
+1290	Nash	3
+130	Nassau	2
+1367	Natchitoches	1
+336	Natrona	4
+903	Navajo	1
+822	Neafus	2
+1219	Nelson	4
+424	Nemaha	4
+368	Neosho	1
+452	Nevada	3
+339	New Castle	3
+290	New Haven	2
+607	New London	1
+689	New Madrid	2
+561	New York	2
+862	New York City	2
+541	Newberry	3
+836	Newnan	4
+1041	Newport	1
+488	Newton	4
+416	Niagara	4
+542	Nicholas	2
+401	Noble	2
+720	Nobles	2
+586	Nocatee	2
+175	Nodaway	4
+640	Nolan	3
+283	Norfolk	1
+215	Norfolk (city)	3
+1157	Norman	1
+1123	North Dighton	2
+851	Northampton	4
+1075	Northumberland	2
+1339	Northwest Arctic	2
+120	Norton	2
+1283	Nottoway	2
+265	Nowata	1
+1127	Nuckolls	3
+208	Nueces	2
+931	Nye	3
+188	Oakland	2
+1125	O'Brien	2
+949	Ocean	1
+1000	Oceana	2
+190	Oconee	2
+677	Oconto	2
+1333	Offutt	2
+807	Ogle	2
+1061	Okaloosa	3
+112	Okanogan	1
+477	Okeechobee	4
+634	Okfuskee	1
+247	Oklahoma	2
+674	Okmulgee	1
+91	Oktibbeha	1
+1224	Oldham	2
+1108	Olmsted	2
+695	Oneida	3
+406	Onondaga	2
+361	Onslow	3
+357	Ontario	3
+49	Orange	4
+169	Orangeburg	2
+525	Oregon	2
+119	Orleans	3
+854	Osage	2
+356	Osborne	2
+1309	Osceola	4
+144	Oscoda	2
+1275	Oswego	3
+702	Otero	1
+868	Otoe	3
+381	Otsego	2
+259	Ottawa	3
+431	Ouachita	3
+944	Ouray	3
+11	Outagamie	4
+376	Ovid	2
+875	Owasco	4
+43	Owen	3
+859	Owsley	2
+1044	Owyhee	4
+497	Oxford	1
+218	Ozark	2
+869	Pacific	3
+547	Page	3
+544	Palm Beach	2
+565	Palo Pinto	3
+1328	Pamlico	3
+213	Park	3
+956	Parker	4
+1177	Pasco	4
+258	Passaic	2
+932	Patrick	3
+906	Pawnee	3
+1351	Payne	1
+260	Pecos	4
+975	Pembina	2
+717	Pemiscot	2
+1254	Pender	2
+907	Pendleton	2
+462	Pennington	1
+1212	Pennsville	2
+64	Penobscot	2
+614	Peoria	4
+1345	Perkins	1
+318	Perry	4
+1161	Person	2
+564	Petersburg (city)	1
+691	Petroleum	1
+1279	Pettis	3
+1346	Phelps	2
+147	Philadelphia	2
+127	Phillips	2
+425	Piatt	2
+278	Pickaway	2
+63	Pickens	1
+211	Pierce	2
+80	Pike	2
+440	Pima	3
+530	Pinal	1
+865	Pine	2
+71	Pinellas	3
+743	Pipestone	3
+713	Piscataquis	3
+1343	Pitt	4
+915	Pittsburg	2
+734	Pittsylvania	2
+1269	Placentia	1
+468	Placer	2
+574	Plaquemines	3
+1103	Platte	2
+855	Plumas	4
+235	Plymouth	2
+1172	Pocahontas	2
+65	Pointe Coupee	1
+59	Polk	2
+1258	Pontotoc	2
+241	Pope	1
+428	Portage	2
+788	Porter	3
+789	Portsmouth (city)	3
+1150	Posey	3
+999	Pottawatomie	2
+874	Pottawattamie	4
+114	Potter	3
+1210	Powder River	3
+338	Powell	2
+711	Power	2
+766	Poweshiek	2
+754	Prairie	3
+392	Pratt	3
+730	Preble	2
+1362	Presque Isle	2
+847	Preston	2
+1168	Prince George	2
+292	Prince George's	4
+584	Prince of Wales-Outer	1
+897	Prince William	4
+667	Providence	3
+881	Pueblo	4
+62	Pulaski	3
+7	Putnam	2
+685	Quality	2
+1013	Quay	2
+396	Queens	4
+1128	Racine	3
+1100	Radcliff	2
+234	Raleigh	2
+1131	Ralls	4
+877	Ramsey	1
+1314	Randall	2
+183	Randolph	3
+84	Rankin	4
+1074	Ransom	3
+499	Rapides	3
+1200	Ravalli	4
+964	Rawlins	2
+1167	Ray	4
+1289	Red River	4
+1274	Redwood	2
+1249	Reese Air Force Base	3
+681	Reeves	4
+560	Refugio	2
+556	Reno	4
+414	Rensselaer	4
+472	Renville	4
+301	Reynolds	2
+718	Rhea	4
+479	Rice	1
+459	Richland	3
+236	Richmond	3
+568	Richmond (city)	2
+985	Riley	3
+454	Rio Arriba	2
+1186	Rio Blanco	1
+785	Rio Creek	2
+929	Rio Grande	2
+38	Ripley	3
+751	Ritchie	2
+275	Riverside	3
+1189	Roane	4
+635	Roanoke (city)	2
+365	Roberts	3
+620	Robeson	1
+611	Rock	4
+1366	Rock Island	2
+792	Rockcastle	3
+1221	Rockfield	3
+263	Rockingham	2
+816	Rockland	3
+1350	Rodman	2
+904	Rogers	3
+524	Roosevelt	2
+780	Roseau	1
+25	Ross	1
+1364	Rowan	3
+710	Rush	1
+625	Rusk	4
+834	Russell	2
+123	Rutherford	2
+1209	Rutland	3
+773	Sabine	2
+1363	Sac	2
+249	Sacramento	3
+750	Saginaw	3
+1152	Saguache	2
+319	Saint Leo	3
+87	Salem	1
+1244	Salem (city)	1
+83	Saline	2
+417	Salt Lake	2
+1293	Salt Lake City	2
+1252	San Benito	3
+96	San Bernardino	2
+53	San Diego	4
+152	San Francisco	1
+344	San Joaquin	3
+261	San Juan	3
+154	San Luis Obispo	3
+238	San Mateo	2
+1089	San Miguel	1
+1226	San Patricio	2
+1342	Sanborn	2
+905	Sanders	3
+1097	Sandoval	4
+719	Sangamon	2
+703	Sanpete	3
+968	Santa Barbara	4
+111	Santa Clara	2
+996	Santa Cruz	3
+573	Santa Fe	3
+1111	Santa Rosa	2
+879	Sarasota	1
+512	Sarpy	1
+288	Saum	3
+953	Saunders	2
+1206	Sawyer	3
+1017	Schenectady	3
+437	Schoharie	3
+422	Schuyler	2
+1171	Schuylkill	2
+1062	Scioto	2
+1106	Scotland	1
+197	Scott	3
+728	Scotts Bluff	2
+1027	Screven	4
+925	Scurry	2
+149	Searcy	2
+1330	Seattle	1
+108	Sedgwick	3
+1218	Seneca	2
+618	Sequoyah	2
+1233	Sevier	4
+68	Seward	3
+673	Shackelford	2
+1288	Shannon	3
+1020	Sharkey	1
+33	Shasta	4
+966	Shawano	1
+1196	Shawnee	2
+1118	Sheboygan	4
+9	Shelby	2
+1213	Sherburne	2
+174	Sheridan	3
+298	Shiawassee	2
+504	Shoshone	1
+1180	Sibley	3
+1278	Sierra	4
+810	Silver Bow	2
+129	Simpson	2
+1011	Sioux Falls	2
+1045	Siskiyou	4
+1250	Skagit	2
+498	Skagway-Hoonah-Angoon	1
+1315	Sloan	2
+285	Smith	2
+1359	Smyth	2
+977	Snellville	1
+467	Snohomish	4
+14	Snyder	1
+1284	Socorro	3
+300	Somerset	2
+989	Sonoma	2
+1223	Spalding	2
+596	Spangle	3
+161	Spartanburg	1
+327	Spink	4
+665	Spokane	3
+659	St. Bernard	2
+819	St. Charles	2
+21	St. Clair	3
+1317	St. Croix	1
+418	St. Francis	3
+1018	St. John the Baptist	3
+1130	St. Johns	2
+78	St. Joseph	2
+1248	St. Landry	1
+892	St. Lawrence	4
+326	St. Louis	4
+793	St. Louis (city)	2
+880	St. Lucie	4
+180	St. Mary's	1
+828	St. Tammany	3
+646	Stafford	2
+415	Stanislaus	4
+1010	Stanly	2
+57	Stark	2
+856	Starke	2
+216	Starr	3
+296	Stearns	1
+558	Steele	3
+687	Stephens	2
+820	Stephenson	3
+97	Sterling	4
+465	Steuben	3
+1191	Stevens	2
+623	Stoddard	3
+930	Stone	4
+1091	Story	2
+764	Strafford	3
+168	Stutsman	4
+185	Suffolk	1
+427	Sugar Hill	2
+167	Sullivan	4
+1302	Sully	2
+159	Summers	3
+408	Summit	3
+297	Sumner	2
+276	Sumter	2
+77	Surry	3
+1023	Susquehanna	4
+1083	Sussex	1
+1340	Sutton	1
+837	Suwannee	3
+1215	Swamp Branch	4
+1365	Sweet Grass	3
+434	Sweetwater	1
+162	Swift	2
+656	Swisher	1
+1065	Tacoma	2
+495	Talbot	2
+484	Taliaferro	2
+1313	Tallahatchie	4
+1355	Tallega	1
+81	Tama	1
+1234	Taney	1
+583	Tangier	4
+1356	Tangipahoa	2
+348	Taos	1
+841	Tarrant	2
+1147	Tattnall	1
+320	Taylor	2
+511	Tazewell	3
+1142	Tehachapi	2
+1292	Tehama	3
+1182	Teller	3
+760	Tensas	3
+588	Terrell	1
+1329	Terry	2
+940	Teton	1
+752	Texas	2
+375	Thayer	1
+870	Thomas	3
+1247	Thurston	2
+1270	Tillman	1
+575	Tioga	2
+1084	Tippah	3
+372	Tippecanoe	1
+1297	Tipton	2
+421	Todd	4
+647	Tolland	2
+630	Tom Green	2
+464	Tompkins	1
+1115	Tooele	2
+6	Toombs	3
+971	Torrance	2
+1079	Torrington	2
+1153	Towner	4
+860	Transylvania	2
+1072	Traverse	2
+313	Travis	2
+353	Trego	2
+256	Trempealeau	2
+572	Treutlen	3
+1255	Trigg	1
+1094	Trinity	2
+1298	Tripp	3
+225	Trumbull	1
+696	Tucson	2
+1353	Tulare	4
+680	Tulsa	2
+592	Tunica	3
+987	Tuolumne	3
+1357	Turner	3
+439	Tuscaloosa	4
+621	Tuscarawas	2
+669	Tuscola	1
+496	Tyler	1
+250	Uintah	3
+134	Ulster	2
+451	Umatilla	2
+330	Union	4
+534	Utah	2
+791	Uvalde	3
+1372	Valencia	2
+370	Valley	3
+245	Valley Home	2
+1344	Valrico	2
+1107	Van Buren	2
+941	Van Wert	3
+206	Van Zandt	2
+305	Vanderburgh	4
+1050	Venango	3
+44	Ventura	3
+448	Vermilion	2
+1246	Vermillion	1
+735	Vernon	1
+397	Vigo	2
+478	Vilas	1
+642	Vinton	4
+509	Virginia Beach (city)	3
+1220	Visalia	2
+403	Volusia	1
+1324	Wabash	3
+269	Wabasha	3
+1361	Wabaunsee	2
+1030	Wade Hampton (CA)	2
+181	Wagoner	3
+948	Wahkiakum	1
+266	Wake	4
+838	Waldo	4
+34	Walker	3
+537	Walla Walla	1
+969	Waller	1
+1049	Walsh	1
+1160	Walters	1
+1040	Walton	2
+553	Walworth	1
+976	Wapello	3
+50	Ward	1
+867	Warfield	2
+28	Warren	4
+1033	Wasco	4
+42	Washington	2
+1222	Washita	2
+699	Washoe	3
+316	Washtenaw	2
+171	Watauga	2
+1070	Watonwan	1
+32	Waukesha	4
+1307	Waupaca	4
+60	Wayne	2
+895	Webb	2
+1110	Weber	2
+349	Webster	2
+657	Weld	2
+40	Wells	2
+668	Wesley Chapel	4
+1156	West Amana	3
+346	West Bend	3
+198	West Carroll	1
+761	Westchester	4
+540	Westmoreland	2
+1139	Weston	3
+1271	Wetzel	3
+138	Wexford	3
+802	Wharton	2
+491	Whatcom	4
+610	Wheeler	3
+758	Whipholt	1
+612	White	4
+1321	White Pine	3
+582	Whiteside	1
+1174	Whitfield	1
+532	Whitley	2
+262	Whitman	1
+1294	Whitneyville	4
+1197	Wichita	4
+1015	Wicomico	4
+805	Wilkes	3
+889	Wilkin	3
+616	Will	4
+192	Williamson	1
+483	Wilson	1
+103	Windham	3
+490	Windsor	2
+334	Winkler	2
+187	Winnebago	4
+384	Winona	2
+1257	Wirt	2
+577	Wise	3
+570	Wolf Summit	3
+651	Wolfe	1
+165	Wood	4
+1266	Woodbury	4
+255	Woodford	4
+762	Woodruff	2
+704	Woodson	3
+363	Worcester	1
+1090	Worth	1
+74	Wright	2
+589	Wyandotte	3
+444	Wyoming	3
+31	Wythe	3
+1256	Yadkin	1
+1109	Yakima	3
+1376	Yamhill	4
+923	Yankton	2
+1187	Yates	1
+628	Yavapai	3
+1137	Yazoo	3
+1190	Yell	1
+740	Yellow Medicine	3
+76	Yellowstone	1
+569	Yolo	3
+393	York	3
+366	Yukon-Koyukuk (CA)	2
+814	Yuma	2
+307	Zapata	2
+901	Zell	2
