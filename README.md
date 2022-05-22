@@ -9,4 +9,4 @@ Datawarehousing-and-Business-Intelligence-Assignment-01
 ## DW & BI Solution architecture
 
 
-![diagram]([https://github.com/Sanjay-dev-ds/Datawarehousing-OnlineRetailStore/blob/main/Images/ER.png](https://github.com/Sanjay-dev-ds/Datawarehousing-OnlineRetailStore/blob/main/Images/solution.drawio.png))
+![diagram](https://github.com/Sanjay-dev-ds/Datawarehousing-OnlineRetailStore/blob/main/Images/solution.drawio.png)
