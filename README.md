@@ -10,3 +10,9 @@ Datawarehousing-and-Business-Intelligence-Assignment-01
 
 
 ![diagram](https://github.com/Sanjay-dev-ds/Datawarehousing-OnlineRetailStore/blob/main/Images/solution.drawio.png)
+
+
+
+## Staging Layer
+(https://github.com/Sanjay-dev-ds/Datawarehousing-OnlineRetailStore/blob/main/Images/STAGE%20C-FLOW.jpg)
+
