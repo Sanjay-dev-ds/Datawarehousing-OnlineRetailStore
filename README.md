@@ -14,5 +14,5 @@ Datawarehousing-and-Business-Intelligence-Assignment-01
 
 
 ## Staging Layer
-(https://github.com/Sanjay-dev-ds/Datawarehousing-OnlineRetailStore/blob/main/Images/STAGE%20C-FLOW.jpg)
+![diagram](https://github.com/Sanjay-dev-ds/Datawarehousing-OnlineRetailStore/blob/main/Images/STAGE%20C-FLOW.jpg)
 
