@@ -19,4 +19,3 @@ Datawarehousing-and-Business-Intelligence-Assignment-01
 
 ## Snow flake schema
 
-![Schema](https://github.com/Sanjay-dev-ds/Datawarehousing-OnlineRetailStore/blob/main/Images/Schema.png)
