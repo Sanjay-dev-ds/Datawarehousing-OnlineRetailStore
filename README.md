@@ -14,7 +14,7 @@ Datawarehousing-and-Business-Intelligence-Assignment-01
 
 
 ## Staging Layer
-![diagram](https://github.com/Sanjay-dev-ds/Datawarehousing-OnlineRetailStore/blob/main/Images/STAGE%20C-FLOW.jpg)
+![diagram3](https://github.com/Sanjay-dev-ds/Datawarehousing-OnlineRetailStore/blob/main/Images/STAGE%20C-FLOW.jpg)
 
 
 ## Snow flake schema
